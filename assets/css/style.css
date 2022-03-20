@@ -1,0 +1,232 @@
+/*
+#373a3c
+#dddddd
+#000 o var(--black)
+#fff o var(--white)
+#dc3545 o var(--danger)
+*/
+
+:root {
+  --negroL: #000;
+  --white: #fff;
+  --danger: #dc3545;
+  --gris: #dddddd;
+}
+
+body {
+  font-family: "Cabin", sans-serif;
+  font-size: 400;
+  color: var(--negroL);
+}
+
+.navbar {
+  height: 60pt;
+}
+
+.nav_titulo {
+  font-family: "Lobster", sans-serif;
+  font-size: 37pt;
+}
+
+.nav-link {
+  font-size: 16pt;
+}
+
+.header_boton, .seccion_newslatter_boton {
+  border: 1px solid var(--gris);
+
+}
+
+.carousel-indicators {
+  /* rellenar */
+  margin-bottom: -3em;
+}
+
+.carousel-indicators button {
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 50%;
+}
+
+.carousel-item img {
+  max-width: 300px;
+}
+
+.section_ingre_prepa {
+  font-size: 20pt;
+  line-height: 1em;
+}
+
+
+.seccion_recetas h1 {
+  font-size: 40pt;
+  font-weight: bold;
+}
+
+.seccion_recetas h5 {
+  font-size: 23pt;
+  font-weight: bold;
+}
+
+.seccion_recetas p {
+  font-size: 16pt;
+}
+
+.seccion_newsletter {
+  height: 530pt;
+  padding-top: 150pt;
+}
+
+.seccion_newsletter h1 {
+  /* rellenar padding y wordspacing */
+  font-size: 40pt;
+  font-weight: bold;
+}
+
+.seccion_newsletter p {
+  /* rellenar tamaño de letra  */
+  font-size: 30pt;
+}
+
+.seccion_newsletter p span {
+  /* rellenar familia de letra lobster cursiva; */
+  font-family: Lobster;
+}
+
+.seccion_newsletter_boton {
+  /* agregar padding */
+  width: 233pt;
+  height: 40pt;
+  background-color: #dc3545;
+  color: #fff;
+  border-radius: 4pt 4pt 4pt 4pt;
+  border-width: 1pt;
+  border-color: #DDDDDD;
+}
+
+
+
+
+footer {
+  font-family: "Lobster";
+}
+
+footer h2 {
+  font-size: 32pt;
+  color: #fff;
+}
+
+
+
+ 
+
+@media (max-width: 575.98px) { 
+  .header_boton {
+      margin-right: 1px !important;
+      margin-left: 1px !important;
+      padding: 15px 5px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .card-text {
+
+  }
+
+  .card-title {
+
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  .header_class {
+
+  }
+
+  
+
+  .header_texto div h2, 
+  .header_texto div h5 {
+      text-align: left !important;
+  }
+
+  .header_texto div h2 {
+      /* rellenar padding*/
+      
+  } 
+
+  .header_botones {
+      text-align: left !important;
+  }
+
+  .seccion_ingredientes {
+      /* rellenar padding left */
+  }
+
+  .seccion_ingredientes h4{
+      /*rellenar margin top */
+  }
+
+  .card-text {
+      display: -webkit-box;
+      display: box;
+      box-orient: vertical;
+      -webkit-box-orient: vertical;
+      line-clamp: 4;
+      -webkit-line-clamp: 4;
+      overflow-y: hidden;
+  }
+
+  .card-title {
+      display: -webkit-box;
+      display: box;
+      box-orient: vertical;
+      -webkit-box-orient: vertical;
+      line-clamp: 1;
+      -webkit-line-clamp: 1;
+      overflow-y: hidden;
+  }
+}
+
+@media (min-width: 1200px) { 
+  
+  .header_class {
+
+  }
+
+  .header_texto h2 {
+    font-size: 40pt;
+    font-weight: bold;
+  }
+  
+  .header_texto h5 {
+    font-size: 20pt;
+    font-weight: bold;
+  }
+  
+
+
+
+  .header_texto div h2, 
+  .header_texto div h5 {
+
+  }
+
+  .header_texto div h2 {
+  
+  } 
+
+  .header_botones {
+
+  }
+
+  .seccion_ingredientes {
+
+  }
+
+  .seccion_ingredientes h4{
+
+  }
+}
+
+
